@@ -1,0 +1,9 @@
+[submodule "odin-agent"]
+	path = odin-agent
+	url = https://github.com/fgg89/odin-agent.git
+[submodule "odin-master"]
+	path = odin-master
+	url = https://github.com/fgg89/odin-master.git
+[submodule "odin-driver-patch"]
+	path = odin-driver-patch
+	url = https://github.com/fgg89/odin-driver-patch.git
