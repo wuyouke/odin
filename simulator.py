@@ -3,6 +3,7 @@
 """
 802.11 Scapy Packet Generator
 Author: Fran Gonzalez, 2014
+Adapted from the original script "802.11 Scapy Packet Example" written by Joff Thyer
 """
 
 # if we set logging to ERROR level, it supresses the warning message
