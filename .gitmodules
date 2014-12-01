@@ -4,3 +4,6 @@
 [submodule "odin-master"]
 	path = odin-master
 	url = https://github.com/fgg89/odin-master.git
+[submodule "odin-utilities"]
+	path = odin-utilities
+	url = https://github.com/fgg89/odin-utilities.git
