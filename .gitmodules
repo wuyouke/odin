@@ -7,3 +7,6 @@
 [submodule "odin-utilities"]
 	path = odin-utilities
 	url = https://github.com/fgg89/odin-utilities.git
+[submodule "odin-click"]
+	path = odin-click
+	url = https://github.com/fgg89/odin-click.git
