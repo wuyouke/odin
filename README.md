@@ -4,13 +4,13 @@ Odin
 Requirements
 ------------
 
-Click modular router
-Java Development Kit
-Docker
-xDPd 
-ROFL 
-hostapd
-Wireless card based on atheros driver ath9k_htc, ath9k or ath5k
+* Click modular router
+* Java Development Kit
+* Docker
+* xDPd 
+* ROFL 
+* hostapd
+* Wireless card based on atheros driver ath9k_htc, ath9k or ath5k
 
 xDPd and rofl-core are assumed to be built already, if you don't know how to do that you can get the instructions at:
 https://github.com/bisdn/xdpd and https://github.com/bisdn/rofl-core
