@@ -108,6 +108,10 @@ In our testbed the odin-agent is containerized by using docker. xDPd runs in the
 References
 ----------
 
-The system is described in the following Masters' thesis: http://lalithsuresh.files.wordpress.com/2011/04/lalith-thesis.pdf
+http://conferences.sigcomm.org/sigcomm/2012/paper/hotsdn/p115.pdf
+
+https://www.usenix.org/system/files/conference/atc14/atc14-paper-schulz_zander.pdf
 
 https://github.com/lalithsuresh/odin
+
+The system is described in the following Masters' thesis: http://lalithsuresh.files.wordpress.com/2011/04/lalith-thesis.pdf
