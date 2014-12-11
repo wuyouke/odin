@@ -70,7 +70,7 @@ The master is to be run on a central server that has IP reachability to all APs 
 ```
 # Pool-1
   NAME pool-1
-  NODES 172.16.251.33 172.16.250.175
+  NODES 172.16.250.33 172.16.250.175
   NETWORKS odin
   APPLICATIONS net.floodlightcontroller.odin.applications.OdinMobilityManager
 
