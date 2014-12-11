@@ -74,12 +74,12 @@ The master is to be run on a central server that has IP reachability to all APs 
   NETWORKS odin
   APPLICATIONS net.floodlightcontroller.odin.applications.OdinMobilityManager
 
-  # Pool-2
+# Pool-2
   NAME pool-2
   NODES 172.16.250.29 172.16.250.37 
   NETWORKS guest-network
   APPLICATIONS net.floodlightcontroller.odin.applications.SimpleLoadBalancer
- ```
+```
  
 Each pool is defined by a name, a list of IP address of physical APs, the list of SSIDs or NETWORKS to be announced, and a list of applications that operate on that pool.
 
