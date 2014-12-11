@@ -48,6 +48,7 @@ Then we can build click with the following options:
 If you want to cross-compile click for running it under OpenWRT you may want to check the following links:
 
 http://wiki.openwrt.org/doc/howto/buildroot.exigence
+
 http://wiki.openwrt.org/doc/devel/crosscompile
 
 Building the odin-master
