@@ -25,7 +25,9 @@ Requirements
 * Wireless card based on atheros driver ath9k_htc, ath9k or ath5k
 
 xDPd and rofl-core are assumed to be built already, if you don't know how to do that you can get the instructions at:
-https://github.com/bisdn/xdpd and https://github.com/bisdn/rofl-core
+
+* https://github.com/bisdn/xdpd
+* https://github.com/bisdn/rofl-core
 
 Building instructions
 ---------------------
@@ -59,9 +61,8 @@ Then we can build click with the following options:
 
 If you want to cross-compile click for running it under OpenWRT you may want to check the following links:
 
-http://wiki.openwrt.org/doc/howto/buildroot.exigence
-
-http://wiki.openwrt.org/doc/devel/crosscompile
+* http://wiki.openwrt.org/doc/howto/buildroot.exigence
+* http://wiki.openwrt.org/doc/devel/crosscompile
 
 Building the odin-master
 ------------------------
