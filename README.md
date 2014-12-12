@@ -1,6 +1,18 @@
 Odin
 ====
 
+SDN-based solution for programmatic orchestration of enterprise WiFi networks. The project found here is a fork of the original Odin framework, which can be found here: https://github.com/lalithsuresh/odin
+
+It has been slightly improved and new features have been added, being agents virtualization the most significant one.
+
+References
+----------
+
+* http://conferences.sigcomm.org/sigcomm/2012/paper/hotsdn/p115.pdf
+* https://www.usenix.org/system/files/conference/atc14/atc14-paper-schulz_zander.pdf
+
+The system is described in the following Masters' thesis: http://lalithsuresh.files.wordpress.com/2011/04/lalith-thesis.pdf
+
 Requirements
 ------------
 
@@ -109,15 +121,4 @@ To run the master:
   $: java -jar floodlight.jar
 ```
 
-In our testbed the odin-agent is containerized by using docker. xDPd runs in the same machine as the odin-agent but only the latest is containerized. The script setup-odin.sh (https://github.com/fgg89/odin-utilities/blob/master/scripts/setup-odin.sh) configures all the dependencies and starts the odin-agent and xDPd. Make sure you give the right parameters to this script. 
-
-References
-----------
-
-http://conferences.sigcomm.org/sigcomm/2012/paper/hotsdn/p115.pdf
-
-https://www.usenix.org/system/files/conference/atc14/atc14-paper-schulz_zander.pdf
-
-https://github.com/lalithsuresh/odin
-
-The system is described in the following Masters' thesis: http://lalithsuresh.files.wordpress.com/2011/04/lalith-thesis.pdf
+In our testbed the odin-agents are containerized using docker. xDPd runs in the same machine as the odin-agent but only the latest is containerized. The script setup-odin.sh (https://github.com/fgg89/odin-utilities/blob/master/scripts/setup-odin.sh) configures all the dependencies and starts the odin-agent and xDPd. Make sure you give the right parameters to this script. If you are using Ubuntu 14.04 you will need to set the wlan interface in ap mode. A script using hostapd (master-iface.sh) has been created for that purpose, it only needs to be run once and the configuration will remain until the machine is rebooted.
