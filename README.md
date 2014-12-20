@@ -1,9 +1,14 @@
 Odin
 ====
 
-SDN-based solution for programmatic orchestration of enterprise WiFi networks. The project found here is a fork of the original Odin framework, which can be found here: https://github.com/lalithsuresh/odin
+SDN-based solution for programmatic orchestration of enterprise WiFi networks.
 
-It has been slightly improved and new features have been added, being agents virtualization the most significant one.
+I would like to state clear that this project is not my own idea, the repository found here is a fork of the original Odin framework (https://github.com/lalithsuresh/odin) by Lalith Suresh. New features have been added:
+
+* deauthentication management
+* odin-agents virtualization
+* script for automatic roll-out
+* fixed minor bugs in click (i.e. padding)
 
 References
 ----------
